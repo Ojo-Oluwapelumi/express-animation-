@@ -1,0 +1,215 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+ 
+  /* transform: translateY(-10px) */
+}
+.back {
+  width: 1350px;
+  height: 300px;
+  background-size: contain;
+}
+.green {
+  width: 1350px;
+  height: 10px;
+  background-color: #58f758;
+  transform: translateY(-915px);
+  border: none;
+}
+.white {
+  width: 1350px;
+  height: 10px;
+  background-color: white;
+  transform: translateY(-935px);
+  border: none;
+}
+.road {
+  width: 1350px;
+  height: 150px;
+  transform: translateY(0px);
+}
+.spaces {
+  background-color: #313030;
+  width: 1350px;
+  height: 70px;
+  transform: translateY(-60);
+}
+.house {
+  width: 1350px;
+  height: 300px;
+  transform: translateY(-660px) translateX(0px);
+}
+.bird {
+    width: 150px;
+    transform: translateY(-1070px) translateX(1000px); 
+  
+}
+.one {
+  transform: translateY(-700px) translateX(200px);
+}
+.two {
+  transform: translateY(-700px) translateX(870px);
+}
+.light1 {
+  transform: translateY(-740px) translateX(5px);
+  width: 150px;
+  height: 150px;
+}
+.light2 {
+  transform: translateY(-740px) translateX(200px);
+  width: 150px;
+  height: 150px;
+}
+.light3 {
+  transform: translateY(-740px) translateX(260px);
+  width: 150px;
+  height: 150px;
+}
+.car {
+  width: 200px;
+  transform: translateY(-900px);
+  animation: car 3s ease-in-out infinite;
+}
+@keyframes car {
+  0% {
+    transform: translate(-1000px, -850px);
+  }
+  100% {
+    transform: translate(1000px, -850px);
+  }
+}
+.bicycle {
+  width: 200px;
+  transform: translateY(-900px);
+  animation: bicycle 9s ease-in-out infinite;
+}
+@keyframes bicycle {
+    0% {
+      transform: translate(1700px, -750px);
+    }
+    100% {
+      transform: translate(-1000px, -750px);
+    }
+  }
+  .bike{
+    width: 200px;
+    transform: translateY(-900px);
+  animation: bike 4s ease-in-out infinite;
+}
+@keyframes bike {
+    0% {
+        transform: translate(1700px, -750px);
+      }
+      100% {
+        transform: translate(-1000px, -750px);
+}
+}    
+    .truck{
+        width: 200px;
+    transform: translateY(-900px);
+  animation: truck 8s ease-in-out infinite;
+}
+@keyframes truck {
+    0% {
+        transform: translate(-1000px, -750px);
+      }
+      100% {
+        transform: translate(1200px, -750px);
+    }
+}
+.host
+{
+    width: 200px;
+    transform: translateY(-900px);
+  animation: host 11s ease-in-out infinite;
+}
+@keyframes host {
+    0% {
+        transform: translate(1700px, -950px);
+      }
+      100% {
+        transform: translate(-1200px, -950px);
+    }
+}
+.aero{
+    width: 500px;
+  transform: translateY(-900px);
+  animation: aero 5s ease-in-out infinite;
+}
+@keyframes aero {
+  0% {
+    transform: translate(1500px, -1300px);
+  }
+  100% {
+    transform: translate(-2000px, -1300px);
+  }
+}
+.man{
+    width: 150px;
+    transform: translateY(-900px);
+    animation: man 20s ease-in-out infinite;
+  }
+  @keyframes man {
+    0% {
+        transform: translate(1300px, -1340px);
+    }
+    100% {
+      transform: translate(-1150px, -1340px);
+    }
+}
+.lady{
+    width: 150px;
+    transform: translateY(-900px);
+    animation: lady 12s ease-in-out infinite;
+  }
+  @keyframes lady {
+    0% {
+      transform: translate(-150px, -1340px);
+    }
+    100% {
+      transform: translate(1500px, -1340px);
+    }
+}
+.taxi{
+    width: 200px;
+    transform: translateY(-900px);
+  animation: taxi 7s ease-in-out infinite;
+}
+@keyframes taxi {
+    0% {
+        transform: translate(-1700px, -1200px);
+      }
+      100% {
+        transform: translate(1600px, -1200px);
+}
+}
+.helicop{
+    width: 200px;
+    transform: translateY(-900px);
+    animation: helicop 6s ease-in-out infinite;
+  }
+  @keyframes helicop {
+    0% {
+      transform: translate(1500px, -1430px);
+    }
+    100% {
+      transform: translate(-1500px, -1430px);
+    }
+}
+.power{
+    width: 200px;
+    transform: translateY(-900px);
+  animation: bike 4s ease-in-out infinite;
+}
+@keyframes bike {
+    0% {
+        transform: translate(1700px, -970px);
+      }
+      100% {
+        transform: translate(-1600px, -970px);
+}
+}
+
+
+
